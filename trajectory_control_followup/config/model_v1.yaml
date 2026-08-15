@@ -1,0 +1,66 @@
+project:
+  name: protocol_control_supplement
+  phase: concurrent_pc_prepared_not_authorized
+  confirmatory_use: supplemental_followup
+environment:
+  name: textworldexpress
+  version: 1.1.0
+  game_name: cookingworld
+  game_fold: test
+  game_params: numLocations=3,numIngredients=2,numDistractorItems=0,includeDoors=0,limitInventorySize=0
+  maximum_steps: 50
+model:
+  provider: qwen
+  service: alibaba_cloud_model_studio
+  exact_model_id: qwen3.7-plus-2026-05-26
+  api_base: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+  api_key_environment_variable: DASHSCOPE_API_KEY
+  keychain_service: dimensional-dashscope-api-key
+  thinking_mode: enabled
+  reasoning_effort: null
+  temperature: 0.0
+  top_p: null
+  experimental_context_limit_tokens: 131072
+  max_output_tokens: 2048
+  request_timeout_seconds: 120
+  max_api_retries: 2
+  minimum_request_interval_seconds: 0.0
+agent:
+  prompt_version: study3_v3_2_numbered_zero_based_v1
+  action_selection_mode: numbered_index
+  action_order: lexicographic
+  history_window_steps: 20
+  target_specification_mode: materialised_cookbook_equal_all_conditions
+  experience_block: explicit_nonempty_both_conditions
+  empty_final_repair:
+    enabled: true
+    trigger: empty_content_only
+    max_calls_per_step: 1
+    prompt_version: numbered_empty_final_repair_v0.1
+    thinking_mode: disabled
+    reasoning_effort: null
+    temperature: 0.0
+    max_output_tokens: 16
+experience:
+  interface_version: protocol_control_common_neutral_v1
+  inventory: protocol_control_supplement/materials/combined_inventory.jsonl
+  renderer: protocol_control_common_neutral_v1
+  condition_labels_visible_to_agent: false
+  transfer_instructions: false
+budget:
+  pricing:
+    cache_hit_input_per_million_usd: 0.16
+    cache_miss_input_per_million_usd: 1.6
+    output_per_million_usd: 1.6
+  planning_centre:
+    formal_episode_cells: 3200
+    formal_tokens: 146768290
+    formal_cost_usd: 234.829264
+    formal_wall_clock_hours: 28.7
+  hard_caps:
+    excluded_paid_smoke_episode_starts: 8
+    formal_episode_records: 3200
+    total_paid_episode_starts: 3208
+    total_tokens: 162000000
+    total_cost_usd: 260.0
+    workers: 4

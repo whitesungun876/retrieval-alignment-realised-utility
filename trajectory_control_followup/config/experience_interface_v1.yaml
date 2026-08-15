@@ -1,0 +1,10 @@
+schema_version: protocol_control_experience_interface_v1
+wrapper: explicit_experience_block
+common_renderer: protocol_control_common_neutral_v1
+agent_visible_condition_labels: false
+source_metadata_visible: false
+transfer_instruction: false
+conditions:
+  P: concrete_coherent_replay_verified_trajectory
+  C: abstract_worked_protocol_scaffold
+

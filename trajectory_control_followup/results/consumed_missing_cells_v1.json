@@ -1,0 +1,58 @@
+[
+  {
+    "condition": "P",
+    "repetition": 1,
+    "run_id": "pc-t0018-arm_2-r01",
+    "target_id": "cookingworld:test:52452",
+    "target_index": 18
+  },
+  {
+    "condition": "C",
+    "repetition": 1,
+    "run_id": "pc-t0026-arm_1-r01",
+    "target_id": "cookingworld:test:53555",
+    "target_index": 26
+  },
+  {
+    "condition": "P",
+    "repetition": 1,
+    "run_id": "pc-t0413-arm_2-r01",
+    "target_id": "cookingworld:test:52314",
+    "target_index": 413
+  },
+  {
+    "condition": "P",
+    "repetition": 1,
+    "run_id": "pc-t0503-arm_2-r01",
+    "target_id": "cookingworld:test:52238",
+    "target_index": 503
+  },
+  {
+    "condition": "P",
+    "repetition": 1,
+    "run_id": "pc-t0604-arm_2-r01",
+    "target_id": "cookingworld:test:53444",
+    "target_index": 604
+  },
+  {
+    "condition": "C",
+    "repetition": 2,
+    "run_id": "pc-t0733-arm_1-r02",
+    "target_id": "cookingworld:test:54057",
+    "target_index": 733
+  },
+  {
+    "condition": "C",
+    "repetition": 1,
+    "run_id": "pc-t0756-arm_1-r01",
+    "target_id": "cookingworld:test:54080",
+    "target_index": 756
+  },
+  {
+    "condition": "C",
+    "repetition": 2,
+    "run_id": "pc-t0781-arm_1-r02",
+    "target_id": "cookingworld:test:54105",
+    "target_index": 781
+  }
+]

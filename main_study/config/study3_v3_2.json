@@ -1,0 +1,98 @@
+{
+  "schema_version": "study3_v3_2_config_v1",
+  "study_id": "study3_structural_experience_retrieval_v3_2",
+  "created_date": "2026-07-29",
+  "title": "From Semantic to Structural Experience Retrieval: A Replication-and-Extension Study in TextWorldExpress CookingWorld",
+  "protocol_source": "/Users/lola/Desktop/study3_protocol_v3_2_execution_spec.md",
+  "protocol_source_sha256": "69a961c6745bb82f48292e14de36eaf7456bcaf50a9ae5c7b9a25736b232e935",
+  "environment": {
+    "name": "textworldexpress",
+    "version": "1.1.0",
+    "game_name": "cookingworld",
+    "game_params": "numLocations=3,numIngredients=2,numDistractorItems=0,includeDoors=0,limitInventorySize=0",
+    "maximum_steps": 50,
+    "target_task_specification": "materialised_cookbook_equal_all_conditions"
+  },
+  "partitions": {
+    "identity": ["game_fold", "seed"],
+    "source_bank": {"fold": "train", "first_seed": 24000, "count": 5000},
+    "development": {"fold": "dev", "first_seed": 34000, "count": 1000},
+    "parser_validation": {"fold": "dev", "first_seed": 35000, "count": 200},
+    "excluded_pilot": {"fold": "dev", "first_seed": 36000, "count": 20},
+    "formal_candidates": {"fold": "test", "first_seed": 52000, "count": 2000},
+    "reserve": {"fold": "test", "first_seed": 54000, "count": 500}
+  },
+  "conditions": {
+    "N": "no_memory",
+    "R": "raw_bge_m3_top1",
+    "D": "delexicalized_bge_m3_top1",
+    "H": "delexicalized_bge_m3_top64_then_directed_wl_rerank"
+  },
+  "estimands": {
+    "primary": "H-R",
+    "secondary": ["R-N"],
+    "mechanistic": ["D-R", "H-D"],
+    "unit": "target",
+    "outcome": "terminal_success"
+  },
+  "retrieval": {
+    "embedding_model": "BAAI/bge-m3",
+    "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "local_snapshot": "/Users/lola/.cache/huggingface/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181",
+    "mode": "dense_only",
+    "normalization": "l2",
+    "similarity": "cosine",
+    "precision": "float32",
+    "input_prefix": "none_symmetric",
+    "maximum_input_length": 8192,
+    "formal_truncation_allowed": false,
+    "d_role_assignment": "ingredient_first_appearance_in_cookbook",
+    "h_candidate_m": 64,
+    "h_graph_similarity": "direction_aware_normalized_wl_feature_cosine",
+    "wl_iterations": 2,
+    "near_tie_absolute_cosine_threshold": 1e-06,
+    "tie_break": ["graph_score", "delex_cosine", "label_blind_sha256"]
+  },
+  "gates": {
+    "P4": {
+      "validation_items": 200,
+      "exact_graph_match_min": 0.95,
+      "component_macro_f1_min": 0.90,
+      "malformed_formal_graph_max": 0
+    },
+    "P5": {
+      "recall_at_64_min": 0.90,
+      "ranking_reproducibility": 1.0,
+      "candidate_permutation_stability": 1.0
+    },
+    "P6": {
+      "targets": 20,
+      "repetitions_per_condition": 2,
+      "valid_api_response_min": 0.99,
+      "complete_logs": 1.0,
+      "scorer_agreement": 1.0,
+      "prompt_truncation_max": 0
+    },
+    "P7": {
+      "alpha_two_sided": 0.05,
+      "power_min": 0.80,
+      "sesoi_risk_difference": 0.05,
+      "sensitivity_risk_differences": [0.05, 0.10, 0.15],
+      "minimum_simulations": 10000,
+      "initial_max_targets": 350,
+      "initial_repetitions_per_condition": 2
+    }
+  },
+  "transition": {
+    "supersedes": "study3_v3_1",
+    "v3_1_complete_records_at_stop": 152,
+    "v3_1_expected_in_source_spec": 76,
+    "v3_1_outcomes_permitted_for_v3_2": false,
+    "v3_1_targets_permitted_for_v3_2_formal": false
+  },
+  "paid_execution": {
+    "approved": false,
+    "budget_approval_required": true,
+    "locked_until_p0_through_p7_pass": true
+  }
+}

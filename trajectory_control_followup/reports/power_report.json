@@ -1,0 +1,352 @@
+{
+  "analysis_code_sha256": "ebe90f145da3984795d3924e9696b20469238e2f04f473760d60f91ff4b863fb",
+  "anchors_800": {
+    "difference_5pp_worst_sd": {
+      "difference_test_power": 0.8056,
+      "difference_test_power_mc95": [
+        0.7977269274627701,
+        0.8132383727330723
+      ],
+      "effect": 0.05,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 799.8366,
+      "mean_realised_effect": 0.04979809186938705,
+      "mean_realised_sd": 0.500007514498424,
+      "n_targets": 800,
+      "probabilities": [
+        0.05225308641642845,
+        0.22033712634458733,
+        0.38047010246766894,
+        0.26903607036519034,
+        0.07790361440612502
+      ],
+      "seed": 202608121043,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.0502,
+      "tost_equivalence_power_mc95": [
+        0.046090332946713386,
+        0.05465511198754727
+      ]
+    },
+    "difference_type_i_worst_sd": {
+      "difference_test_power": 0.0477,
+      "difference_test_power_mc95": [
+        0.0436935891355785,
+        0.052053775790535536
+      ],
+      "effect": 0.0,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 799.8366,
+      "mean_realised_effect": 0.0003039140017509615,
+      "mean_realised_sd": 0.4998279970829316,
+      "n_targets": 800,
+      "probabilities": [
+        0.06382713670644717,
+        0.24469145317421134,
+        0.382962820238683,
+        0.24469145317421134,
+        0.06382713670644717
+      ],
+      "seed": 202608121028,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.7684,
+      "tost_equivalence_power_mc95": [
+        0.7600296786158653,
+        0.7765641910587553
+      ]
+    },
+    "equivalence_zero_worst_sd": {
+      "difference_test_power": 0.0477,
+      "difference_test_power_mc95": [
+        0.0436935891355785,
+        0.052053775790535536
+      ],
+      "effect": 0.0,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 799.8366,
+      "mean_realised_effect": 0.0003039140017509615,
+      "mean_realised_sd": 0.4998279970829316,
+      "n_targets": 800,
+      "probabilities": [
+        0.06382713670644717,
+        0.24469145317421134,
+        0.382962820238683,
+        0.24469145317421134,
+        0.06382713670644717
+      ],
+      "seed": 202608121028,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.7684,
+      "tost_equivalence_power_mc95": [
+        0.7600296786158653,
+        0.7765641910587553
+      ]
+    },
+    "tost_negative_boundary": {
+      "difference_test_power": 0.807,
+      "difference_test_power_mc95": [
+        0.7991476424023961,
+        0.8146165825980086
+      ],
+      "effect": -0.05,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 799.8348,
+      "mean_realised_effect": -0.050103300266717575,
+      "mean_realised_sd": 0.49987816632387694,
+      "n_targets": 800,
+      "probabilities": [
+        0.07790361440612499,
+        0.26903607036519034,
+        0.38047010246766894,
+        0.22033712634458733,
+        0.052253086416428424
+      ],
+      "seed": 202608121013,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.0489,
+      "tost_equivalence_power_mc95": [
+        0.044843646588557176,
+        0.053302796741467234
+      ]
+    },
+    "tost_positive_boundary": {
+      "difference_test_power": 0.8056,
+      "difference_test_power_mc95": [
+        0.7977269274627701,
+        0.8132383727330723
+      ],
+      "effect": 0.05,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 799.8366,
+      "mean_realised_effect": 0.04979809186938705,
+      "mean_realised_sd": 0.500007514498424,
+      "n_targets": 800,
+      "probabilities": [
+        0.05225308641642845,
+        0.22033712634458733,
+        0.38047010246766894,
+        0.26903607036519034,
+        0.07790361440612502
+      ],
+      "seed": 202608121043,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.0502,
+      "tost_equivalence_power_mc95": [
+        0.046090332946713386,
+        0.05465511198754727
+      ]
+    }
+  },
+  "checks": {
+    "boundary_scenarios_included": true,
+    "difference_and_tost_separate": true,
+    "formal_simulations_10000": true,
+    "new_pc_outcomes_read_zero": true,
+    "paid_provider_calls_zero": true,
+    "target_is_independent_unit": true,
+    "tost_boundary_rejection_at_most_006": true,
+    "type_i_near_005": true
+  },
+  "decision": "PASS",
+  "design": {
+    "conditions": 2,
+    "independent_unit": "target",
+    "repetitions": 2,
+    "targets": 800
+  },
+  "exact_sign_flip_anchors": {
+    "difference_5pp_worst_sd_n800": {
+      "difference_test_power": 0.7903,
+      "difference_test_power_mc95": [
+        0.782210373479898,
+        0.7981666770660871
+      ],
+      "effect": 0.05,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 799.8391,
+      "mean_realised_effect": 0.050020351648915405,
+      "mean_realised_sd": 0.4999718427011614,
+      "n_targets": 800,
+      "probabilities": [
+        0.05225308641642845,
+        0.22033712634458733,
+        0.38047010246766894,
+        0.26903607036519034,
+        0.07790361440612502
+      ],
+      "seed": 202608121354,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.0523,
+      "tost_equivalence_power_mc95": [
+        0.04810587403933279,
+        0.05683795810177102
+      ]
+    },
+    "difference_5pp_worst_sd_n825": {
+      "difference_test_power": 0.8111,
+      "difference_test_power_mc95": [
+        0.8033092103949278,
+        0.8186518658188373
+      ],
+      "effect": 0.05,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 824.8396,
+      "mean_realised_effect": 0.05012499593439983,
+      "mean_realised_sd": 0.4998959403409195,
+      "n_targets": 825,
+      "probabilities": [
+        0.05225308641642845,
+        0.22033712634458733,
+        0.38047010246766894,
+        0.26903607036519034,
+        0.07790361440612502
+      ],
+      "seed": 202608121356,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.0504,
+      "tost_equivalence_power_mc95": [
+        0.04628220197159746,
+        0.05486308936331493
+      ]
+    },
+    "difference_5pp_worst_sd_n850": {
+      "difference_test_power": 0.8257,
+      "difference_test_power_mc95": [
+        0.8181398460270243,
+        0.833010017434317
+      ],
+      "effect": 0.05,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 849.8379,
+      "mean_realised_effect": 0.0503327728693235,
+      "mean_realised_sd": 0.49990454019707903,
+      "n_targets": 850,
+      "probabilities": [
+        0.05225308641642845,
+        0.22033712634458733,
+        0.38047010246766894,
+        0.26903607036519034,
+        0.07790361440612502
+      ],
+      "seed": 202608121357,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.047,
+      "tost_equivalence_power_mc95": [
+        0.04302305617019257,
+        0.051324846353640416
+      ]
+    },
+    "difference_5pp_worst_sd_n900": {
+      "difference_test_power": 0.8483,
+      "difference_test_power_mc95": [
+        0.84113535522225,
+        0.8551971515127368
+      ],
+      "effect": 0.05,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 899.8254,
+      "mean_realised_effect": 0.05002294203227488,
+      "mean_realised_sd": 0.49985623824109315,
+      "n_targets": 900,
+      "probabilities": [
+        0.05225308641642845,
+        0.22033712634458733,
+        0.38047010246766894,
+        0.26903607036519034,
+        0.07790361440612502
+      ],
+      "seed": 202608121358,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.0487,
+      "tost_equivalence_power_mc95": [
+        0.04465192097456977,
+        0.05309467595480291
+      ]
+    },
+    "difference_type_i_worst_sd_n800": {
+      "difference_test_power": 0.0438,
+      "difference_test_power_mc95": [
+        0.03996106261277299,
+        0.04798929750063233
+      ],
+      "effect": 0.0,
+      "episode_missingness": 0.01,
+      "mean_evaluable_targets": 799.8394,
+      "mean_realised_effect": -0.00015887619829204822,
+      "mean_realised_sd": 0.5000131575220528,
+      "n_targets": 800,
+      "probabilities": [
+        0.06382713670644717,
+        0.24469145317421134,
+        0.382962820238683,
+        0.24469145317421134,
+        0.06382713670644717
+      ],
+      "seed": 202608121355,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "tost_equivalence_power": 0.7668,
+      "tost_equivalence_power_mc95": [
+        0.7584104372741138,
+        0.7749846611952931
+      ]
+    }
+  },
+  "grid_sha256": "93d6423857ccfeb81260ca6810774776841951063ccbb2e7d3379fb5897001f3",
+  "interpretation": "Difference power and equivalence power are distinct. The +/-5pp boundary scenarios assess TOST size; zero-effect scenarios assess power to establish equivalence.",
+  "new_pc_outcomes_read": false,
+  "normal_approximation_mde_80_power": {
+    "0.36": {
+      "1000": 0.031893805253867744,
+      "675": 0.038819903516044765,
+      "800": 0.0356583583043941,
+      "850": 0.03459368887650296,
+      "900": 0.033619022617355616
+    },
+    "0.4": {
+      "1000": 0.035437561393186386,
+      "675": 0.043133226128938634,
+      "800": 0.03962039811599346,
+      "850": 0.03843743208500329,
+      "900": 0.03735446957483958
+    },
+    "0.45": {
+      "1000": 0.03986725656733468,
+      "675": 0.04852487939505596,
+      "800": 0.04457294788049263,
+      "850": 0.0432421110956287,
+      "900": 0.042023778271694526
+    },
+    "0.475": {
+      "1000": 0.04208210415440883,
+      "675": 0.05122070602811462,
+      "800": 0.04704922276274222,
+      "850": 0.0456444506009414,
+      "900": 0.04435843262012199
+    },
+    "0.5": {
+      "1000": 0.04429695174148298,
+      "675": 0.053916532661173286,
+      "800": 0.04952549764499182,
+      "850": 0.04804679010625411,
+      "900": 0.04669308696854947
+    }
+  },
+  "paid_provider_called": false,
+  "required_targets_80_power_worst_sd_missingness": {
+    "approximate_t_difference_for_5pp": 800,
+    "exact_sign_flip_difference_for_5pp": 825,
+    "tost_equivalence_at_zero": 900
+  },
+  "schema_version": "protocol_control_power_report_v3",
+  "version_note": "V3 adds prospectively requested exact sign-flip sensitivity at 825, 850, and 900 targets. V1 and V2 are retained as superseded, outcome-free engineering calculations and are not used by the execution gate."
+}

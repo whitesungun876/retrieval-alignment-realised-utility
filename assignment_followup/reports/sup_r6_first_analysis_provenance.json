@@ -1,0 +1,61 @@
+{
+  "arm_to_condition": {
+    "arm_1": "P",
+    "arm_2": "R2",
+    "arm_3": "N2"
+  },
+  "condition_mapping_had_been_prematurely_displayed_before_freeze": true,
+  "condition_mapping_revealed": true,
+  "counts": {
+    "logical_episode_cells": 4800,
+    "preregistered_technical_missing": 14,
+    "targets": 800,
+    "valid_episode_records": 4786
+  },
+  "created_at_utc": "2026-08-05T14:19:03+00:00",
+  "decision": "PASS",
+  "evidence_status": {
+    "failure_taxonomy": "predeclared descriptive diagnostic",
+    "ingredient_jaccard": "descriptive only; no inferential status",
+    "primary_and_secondary": "prospectively frozen confirmatory",
+    "retrieval_and_overlap": "predeclared descriptive diagnostics"
+  },
+  "final_bundle_verified_before_analysis": true,
+  "first_analysis_preserved": true,
+  "frozen_analysis_invocations_on_supplemental_outcomes": 1,
+  "input_hashes": {
+    "experiments/study3_sup_analysis.py": "58cdc32308ee372899b6dca7e0f0f22507227a216e7d2cc88565c115830e6165",
+    "experiments/study3_sup_r6_unblind_analyze.py": "95e17917bd7a6a6ff43a3b9e296793ecf3127cec1235dec12c4dc4011267b5b7",
+    "study3_supplemental_random_baseline/analysis/failure_taxonomy_v1.json": "f4a67c31f61bfcc2bcfd4d712895c68d7907bdd2b5db88e753acb3eb52d792a0",
+    "study3_supplemental_random_baseline/analysis/overlap_strata_v1.json": "6455ac365676b31f2f513a29ab4f1f0e173b93008611c793e43f870e62ea31a9",
+    "study3_supplemental_random_baseline/formal/formal_manifest.jsonl": "6319d4d19b2b70d2768682e99b88879d3979f3a594acb4a7d4b24d7464787f23",
+    "study3_supplemental_random_baseline/formal/parallel_state_rec001/budget_ledger_v1.json": "1d775797e5145deec4f94d24af3cbbd053dff3b6ee6a055b82e30ef45cbfd41f",
+    "study3_supplemental_random_baseline/formal/sup_r5_record_index.jsonl": "a887ecf18852c87d1a9da1ff0776925a68a4824a9289655d78dd0ed77dad3574",
+    "study3_supplemental_random_baseline/materials/selected_sources.jsonl": "67fe5b10fd83b42e4afea61db0309f2f86ad8bfc92045c9297601ff037bc4444",
+    "study3_supplemental_random_baseline/materials/selected_targets.jsonl": "24ba8e8257bc72a05eaff8b65291e587db675b39f304e1f1aa3fc2db191e8d6e",
+    "study3_supplemental_random_baseline/protocol/sup_r6_preanalysis_deviation_01_premature_map_display_20260805.md": "3020113a5cbd2a0c51d8a5e1447307138cd0d423ff5345a2e7cc3134120f5c1d",
+    "study3_supplemental_random_baseline/reports/sup_r0_freeze_report.json": "ef1f85e6245a9ebf26a931375d7e22d33b076b14235945a9411f92ff7d16ceba",
+    "study3_supplemental_random_baseline/reports/sup_r1_construction_report.json": "24f5a4a75ef34c069b71fe3dba3d3480b21420e13c0fd50969aef38f4d80fbb5",
+    "study3_supplemental_random_baseline/reports/sup_r5_blind_technical_acceptance.json": "044c25174324079bc0fe2715aced85ca9cd8b39443e32a3ca0efdb36ea595a42",
+    "study3_supplemental_random_baseline/retrieval/r2_p_mapping.jsonl": "924037af05a7a8dc707dbaef33cfc82f523ad2791ab92ad18793bffe1b7f2c47",
+    "study3_supplemental_random_baseline/sealed/sealed_condition_map.json": "87ef9ec2dc9d85754c77791a3fc884b5d1198b7b02e901c16f1ff962a259d168",
+    "study3_supplemental_random_baseline/sealed/sealed_execution_bindings.jsonl": "4bc64222945ed6704e30dcfc21086d57c69b0b85760be952d3cdbad44e010bb2"
+  },
+  "output_hashes": {
+    "study3_supplemental_random_baseline/results/sup_r6_condition_descriptives.csv": "1a1d0a784ba8e5f50e1109d547cd96e63c6df43cde9d6429ea0e457815eec7c4",
+    "study3_supplemental_random_baseline/results/sup_r6_confirmatory_analysis_first.json": "b3597d151cb84612bb564553e1a9f15908abcc67a5882246c5398292f038c852",
+    "study3_supplemental_random_baseline/results/sup_r6_contrasts.csv": "b5688b8a5de77dfa301012f0b982b449a1782d88fa0fac606c72e967fc2c6d10",
+    "study3_supplemental_random_baseline/results/sup_r6_episode_outcomes_first.jsonl": "7a412dcc26070509c992368a64f23144a88d6c932680a8d4854c83140909420d",
+    "study3_supplemental_random_baseline/results/sup_r6_failure_taxonomy.csv": "ae8bce41cac9316954635fcb0fecb248f3dc654634055f9d9cf7461cc0babec1",
+    "study3_supplemental_random_baseline/results/sup_r6_overlap_diagnostics.csv": "221559df2db27a08533f1b05eb318aab1be54c9ab24a71e686f65ae0449d7929",
+    "study3_supplemental_random_baseline/results/sup_r6_retrieval_diagnostics.json": "7c7862a53130f1f5b99ea79fe84dac4ce76027356ea06f27fccf01a14216097e"
+  },
+  "protocol_deviation_sha256": "3020113a5cbd2a0c51d8a5e1447307138cd0d423ff5345a2e7cc3134120f5c1d",
+  "schema_version": "study3_sup_r6_first_analysis_provenance_v1",
+  "software_versions": {
+    "numpy": "2.0.2",
+    "python": "3.9.25 (main, Oct 31 2025, 23:01:59) \n[Clang 21.1.4 ]",
+    "scipy": "1.13.1"
+  },
+  "sup_r5_verified_pass_before_analysis": true
+}

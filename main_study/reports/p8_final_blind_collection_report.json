@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-08-03T13:41:58+00:00",
+  "decision": "PASS",
+  "p9_acceptance_decision": "FAIL",
+  "schema_version": "study3_v3_2_p8_final_blind_collection_v1",
+  "scientific_outcomes_read": false,
+  "technical_metrics": {
+    "aggregate_cost_usd": 302.1300079999999,
+    "aggregate_paid_episode_starts": 5547,
+    "aggregate_tokens": 188831255,
+    "authorized_replacements": 146,
+    "final_missingness_rate": 0.0011111111111111111,
+    "masked_arm_missingness_rate_range": 0.0022222222222222222,
+    "observed_original_records": 5400,
+    "observed_replacements": 146,
+    "planned_original_cells": 5400,
+    "preregistered_unresolved_missing": 6,
+    "protocol_deviation_count": 21,
+    "scorer_records_checked": 5394,
+    "selected_valid_records": 5394
+  }
+}

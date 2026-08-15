@@ -1,0 +1,75 @@
+{
+  "independent_unit": "target",
+  "missing_data_rule": "Unresolved technical failures are missing. Target-condition means use available valid repetitions; a contrast omits a target only when either condition has zero valid repetitions.",
+  "primary": {
+    "bootstrap_95_ci": [
+      -0.0125,
+      0.040625
+    ],
+    "bootstrap_95_ci_percentage_points": [
+      -1.25,
+      4.0625
+    ],
+    "bootstrap_resamples": 10000,
+    "contrast": "R2-P",
+    "risk_difference": 0.01375,
+    "risk_difference_percentage_points": 1.375,
+    "sign_flip_p_two_sided": 0.33936606339366066,
+    "sign_flip_resamples": 10000,
+    "targets": 800,
+    "tost": {
+      "alpha_one_sided": 0.05,
+      "ci_90": [
+        -0.008371733199937005,
+        0.03587173319993701
+      ],
+      "equivalent": true,
+      "lower_p_one_sided": 1.2313072615686106e-06,
+      "margin": 0.05,
+      "mean": 0.01375,
+      "n": 800,
+      "sd": 0.3799557809724283,
+      "standard_error": 0.013433465463831732,
+      "upper_p_one_sided": 0.003556309750579807
+    }
+  },
+  "schema_version": "study3_sup_analysis_v1",
+  "secondary": [
+    {
+      "bootstrap_95_ci": [
+        0.181875,
+        0.24314062499999978
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        18.1875,
+        24.314062499999977
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "P-N2",
+      "holm_adjusted_p": 0.00019998000199980003,
+      "risk_difference": 0.213125,
+      "risk_difference_percentage_points": 21.3125,
+      "sign_flip_p_two_sided": 9.999000099990002e-05,
+      "sign_flip_resamples": 10000,
+      "targets": 800
+    },
+    {
+      "bootstrap_95_ci": [
+        0.193125,
+        0.259375
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        19.3125,
+        25.937500000000004
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "R2-N2",
+      "holm_adjusted_p": 0.00019998000199980003,
+      "risk_difference": 0.226875,
+      "risk_difference_percentage_points": 22.6875,
+      "sign_flip_p_two_sided": 9.999000099990002e-05,
+      "sign_flip_resamples": 10000,
+      "targets": 800
+    }
+  ]
+}

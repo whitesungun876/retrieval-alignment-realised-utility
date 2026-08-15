@@ -1,0 +1,55 @@
+{
+  "condition_mapping": {
+    "arm_1": "D",
+    "arm_2": "H",
+    "arm_3": "N",
+    "arm_4": "R"
+  },
+  "created_at_utc": "2026-08-03T13:48:26+00:00",
+  "decision": "PASS",
+  "descriptive_condition_rates": [
+    {
+      "condition": "N",
+      "episode_success_rate": 0.6332590942835932,
+      "episode_successes": 853,
+      "mean_target_success_rate": 0.6333333333333333,
+      "planned_episodes": 1350,
+      "targets_with_at_least_one_valid_episode": 675,
+      "technical_missing": 3,
+      "valid_episodes": 1347
+    },
+    {
+      "condition": "R",
+      "episode_success_rate": 0.8397626112759644,
+      "episode_successes": 1132,
+      "mean_target_success_rate": 0.8392592592592593,
+      "planned_episodes": 1350,
+      "targets_with_at_least_one_valid_episode": 675,
+      "technical_missing": 2,
+      "valid_episodes": 1348
+    },
+    {
+      "condition": "D",
+      "episode_success_rate": 0.8480355819125278,
+      "episode_successes": 1144,
+      "mean_target_success_rate": 0.8481481481481481,
+      "planned_episodes": 1350,
+      "targets_with_at_least_one_valid_episode": 675,
+      "technical_missing": 1,
+      "valid_episodes": 1349
+    },
+    {
+      "condition": "H",
+      "episode_success_rate": 0.8414814814814815,
+      "episode_successes": 1136,
+      "mean_target_success_rate": 0.8414814814814815,
+      "planned_episodes": 1350,
+      "targets_with_at_least_one_valid_episode": 675,
+      "technical_missing": 0,
+      "valid_episodes": 1350
+    }
+  ],
+  "first_analysis_provenance_sha256": "5b111f84ece621890c9707150b85bf2974f6e984ceb0a66c13a0cc9875dece84",
+  "first_analysis_sha256": "6819bf17608dc8a3bc2bd544a4d6fde54115227f8ce3ee0cff8d175309f6638d",
+  "schema_version": "study3_v3_2_p10_unblinding_report_v1"
+}

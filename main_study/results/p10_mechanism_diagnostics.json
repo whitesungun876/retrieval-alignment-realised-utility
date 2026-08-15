@@ -1,0 +1,168 @@
+{
+  "analysis_status": {
+    "confirmatory_output_unchanged": true,
+    "failure_taxonomy": "categories prespecified in Section 14.6; executable priority rules operationalised after unblinding",
+    "offline_alignment": "prespecified descriptive diagnostic (Protocol v3.2 Section 14.6)",
+    "strict_correction_subset": "exploratory mechanism diagnostic; does not replace the all-target primary result"
+  },
+  "condition_target_success_rates": {
+    "D": 0.8481481481481481,
+    "H": 0.8414814814814815,
+    "N": 0.6333333333333333,
+    "R": 0.8392592592592593
+  },
+  "confirmatory_primary_for_reference": {
+    "bootstrap_95_ci": [
+      -0.024444444444444446,
+      0.02962962962962963
+    ],
+    "bootstrap_95_ci_percentage_points": [
+      -2.4444444444444446,
+      2.9629629629629632
+    ],
+    "bootstrap_resamples": 10000,
+    "contrast": "H-R",
+    "risk_difference": 0.0022222222222222222,
+    "risk_difference_percentage_points": 0.2222222222222222,
+    "sign_flip_p_two_sided": 0.9141085891410858,
+    "sign_flip_resamples": 10000,
+    "targets": 675
+  },
+  "created_at_utc": "2026-08-03T13:59:34+00:00",
+  "failure_diagnostics": {
+    "by_condition": {
+      "D": {
+        "failures": 205,
+        "navigation_or_step_limit_failure": 0,
+        "operation_to_ingredient_error": 202,
+        "premature_ingredient_consumption": 3
+      },
+      "H": {
+        "failures": 214,
+        "navigation_or_step_limit_failure": 1,
+        "operation_to_ingredient_error": 210,
+        "premature_ingredient_consumption": 3
+      },
+      "N": {
+        "failures": 494,
+        "navigation_or_step_limit_failure": 8,
+        "operation_to_ingredient_error": 404,
+        "premature_ingredient_consumption": 82
+      },
+      "R": {
+        "failures": 216,
+        "navigation_or_step_limit_failure": 4,
+        "operation_to_ingredient_error": 198,
+        "premature_ingredient_consumption": 14
+      }
+    },
+    "category_counts": {
+      "navigation_or_step_limit_failure": 13,
+      "operation_to_ingredient_error": 1014,
+      "premature_ingredient_consumption": 102
+    },
+    "category_fractions_of_failures": {
+      "navigation_or_step_limit_failure": 0.011514614703277236,
+      "operation_to_ingredient_error": 0.8981399468556245,
+      "premature_ingredient_consumption": 0.09034543844109831
+    },
+    "classification_coverage": 1.0,
+    "invalid_action_counts_all_valid_episodes": {
+      "D": 0,
+      "H": 0,
+      "N": 81,
+      "R": 0
+    },
+    "subcategory_counts": {
+      "ingredient_eaten_before_meal_completion": 102,
+      "operation_allocated_to_wrong_ingredient_role": 6,
+      "operation_on_nonrequired_or_completed_ingredient": 36,
+      "step_limit_without_irreversible_recipe_error": 13,
+      "wrong_operation_for_ingredient": 972
+    },
+    "valid_failures": 1129,
+    "within_chain_order_errors_observed": 0
+  },
+  "mechanism_subsets": {
+    "H_R_source_disagreement_targets": 673,
+    "disagreement_H_minus_R": {
+      "bootstrap_95_ci": [
+        -0.02451708766716196,
+        0.029717682020802376
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        -2.4517087667161963,
+        2.9717682020802374
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "H-R",
+      "risk_difference": 0.002228826151560178,
+      "risk_difference_percentage_points": 0.22288261515601782,
+      "sign_flip_p_two_sided": 0.9159084091590841,
+      "sign_flip_resamples": 10000,
+      "targets": 673
+    },
+    "strict_correction_H_minus_R": {
+      "bootstrap_95_ci": [
+        -0.02377179080824089,
+        0.03328050713153724
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        -2.3771790808240887,
+        3.328050713153724
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "H-R",
+      "risk_difference": 0.004754358161648178,
+      "risk_difference_percentage_points": 0.4754358161648178,
+      "sign_flip_p_two_sided": 0.784021597840216,
+      "sign_flip_resamples": 10000,
+      "targets": 631
+    },
+    "strict_correction_R_minus_N": {
+      "bootstrap_95_ci": [
+        0.17194928684627575,
+        0.25118858954041207
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        17.194928684627577,
+        25.118858954041208
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "R-N",
+      "risk_difference": 0.21077654516640254,
+      "risk_difference_percentage_points": 21.077654516640255,
+      "sign_flip_p_two_sided": 9.999000099990002e-05,
+      "sign_flip_resamples": 10000,
+      "targets": 631
+    },
+    "strict_correction_definition": "R structural mismatch, H structural match, and different selected source",
+    "strict_correction_targets": 631
+  },
+  "offline_alignment": {
+    "D_H_same_source": 675,
+    "H_minus_R_percentage_points": 93.48148148148148,
+    "H_minus_R_target_bootstrap_95_ci_percentage_points": [
+      91.55555555555556,
+      95.25925925925925
+    ],
+    "definition": "exact equality of anonymous multisets of ordered ingredient transformation chains",
+    "match_counts": {
+      "D": 675,
+      "H": 675,
+      "R": 44
+    },
+    "match_rates": {
+      "D": 1.0,
+      "H": 1.0,
+      "R": 0.06518518518518518
+    },
+    "paired_discordance": {
+      "H_match_R_mismatch": 631,
+      "R_match_H_mismatch": 0,
+      "exact_mcnemar_two_sided_p": 2.2444127733846047e-190
+    },
+    "targets": 675
+  },
+  "schema_version": "study3_v3_2_p10_mechanism_diagnostics_v1"
+}

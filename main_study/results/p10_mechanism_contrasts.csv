@@ -1,0 +1,4 @@
+analysis,status,targets,risk_difference_percentage_points,ci_95_low_percentage_points,ci_95_high_percentage_points,sign_flip_p_two_sided
+strict-correction H-R,exploratory mechanism,631,0.4754358161648178,-2.3771790808240887,3.328050713153724,0.784021597840216
+strict-correction R-N,exploratory mechanism,631,21.077654516640255,17.194928684627577,25.118858954041208,9.999000099990002e-05
+source-disagreement H-R,exploratory mechanism,673,0.22288261515601782,-2.4517087667161963,2.9717682020802374,0.9159084091590841

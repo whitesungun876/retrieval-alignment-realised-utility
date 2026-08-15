@@ -1,0 +1,32 @@
+{
+  "audit_scope": "Exact source/assigned-target IDs, seeds, recipe text, ingredients, directions, gold actions, source trajectory commands and observations, plus a predeclared CookingWorld concrete-domain lexicon.",
+  "checks": {
+    "c_adds_no_index_interface_demonstration": true,
+    "common_renderer_shell_parity_all": true,
+    "complete_frozen_prompt_shell_parity_all": true,
+    "concrete_domain_lexicon_leakage_zero": true,
+    "experience_body_hashes_valid": true,
+    "new_pc_outcomes_read_zero": true,
+    "old_frozen_input_hashes_unchanged": true,
+    "paid_provider_calls_zero": true,
+    "pairs_515": true,
+    "source_target_id_recipe_entity_action_observation_leakage_zero": true,
+    "word_count_ratio_within_10_percent_all": true
+  },
+  "construct_caveat": "Passing lexical leakage checks cannot make C a pure experience-free control: C remains more abstract and less semantically coherent/actionable than P by design.",
+  "decision": "PASS",
+  "experience_hash_failures": [],
+  "index_demonstration_failures": [],
+  "leakage_failures": [],
+  "new_pc_outcomes_read": false,
+  "old_hash_mismatches": {},
+  "paid_provider_called": false,
+  "prompt_shell_mismatches": [],
+  "renderer_shell_mismatches": [],
+  "schema_version": "protocol_control_static_qa_v2",
+  "word_count_ratio_c_over_p": {
+    "maximum": 1.0056925996204933,
+    "median": 0.9674465920651069,
+    "minimum": 0.9510337323177367
+  }
+}

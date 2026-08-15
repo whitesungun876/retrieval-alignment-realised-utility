@@ -1,0 +1,4 @@
+status,contrast,targets,risk_difference_percentage_points,ci_95_low_percentage_points,ci_95_high_percentage_points,sign_flip_p_two_sided,holm_adjusted_p,tost_margin_percentage_points,tost_ci_90_low_percentage_points,tost_ci_90_high_percentage_points,tost_lower_p_one_sided,tost_upper_p_one_sided,tost_equivalent
+primary,R2-P,800,1.375,-1.25,4.0625,0.33936606339366066,,5.0,-0.8371733199937006,3.587173319993701,1.2313072615686106e-06,0.003556309750579807,True
+secondary,P-N2,800,21.3125,18.1875,24.314062499999977,9.999000099990002e-05,0.00019998000199980003,,,,,,
+secondary,R2-N2,800,22.6875,19.3125,25.937500000000004,9.999000099990002e-05,0.00019998000199980003,,,,,,

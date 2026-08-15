@@ -1,0 +1,4 @@
+condition,planned_episodes,valid_episodes,technical_missing,episode_successes,episode_success_rate,targets_with_at_least_one_valid_episode,mean_target_success_rate
+N2,1600,1596,4,980,0.6140350877192983,800,0.61375
+P,1600,1594,6,1317,0.8262233375156838,800,0.826875
+R2,1600,1596,4,1341,0.8402255639097744,800,0.840625

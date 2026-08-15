@@ -1,0 +1,12 @@
+interface:
+  version: study3_v3_2_canonical_raw_trajectory_v1
+  experience_block_present_in_all_conditions: true
+  no_memory_block_content: ""
+  memory_content: canonical_raw_experience
+  prompt_location: before_current_observation
+  retrieval_condition_visible_to_agent: false
+  retrieval_scores_visible_to_agent: false
+  anonymous_roles_visible_to_agent: false
+  graph_visible_to_agent: false
+  target_source_mapping_visible_to_agent: false
+  transfer_instructions: false

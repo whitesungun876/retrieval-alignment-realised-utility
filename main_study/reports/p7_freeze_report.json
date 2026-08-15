@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "all_bound_sources_in_bank": true,
+    "analysis_tests_passed": true,
+    "arm_position_imbalance_at_most_one": true,
+    "binding_rows_exact": true,
+    "each_target_all_arms_twice": true,
+    "formal_budget_unapproved": true,
+    "formal_candidate_reserve_overlap_zero": true,
+    "formal_execution_code_present": true,
+    "formal_model_uses_test_fold": true,
+    "manifest_rows_exact": true,
+    "power_report_ready": true,
+    "public_manifest_contains_no_condition": true,
+    "same_source_prompt_rule_preserved": true,
+    "targets_exact": true
+  },
+  "created_at_utc": "2026-07-30T06:09:50+00:00",
+  "decision": "AWAITING_BUDGET_APPROVAL",
+  "formal_agent_outcomes_read": false,
+  "hashes": {
+    "analysis_code": "746a2720cad1e556aac7d9b09b967cfd5ab793c2e2dd5ae4c8c3eb70ce7443fe",
+    "episode_runner": "09af94734d26a58c1e301aee7014308ab797a6895de1f01476e575db09f9dd18",
+    "formal_config": "1542d144e14e7d9ca5b1a4e09998f4bfe9d103df20dce4995d2459529cbf20e3",
+    "interface_config": "ed9bbf9f511f78fb752c0b4dcbd5b98407a7147401b87505711b374998cdbebb",
+    "model_config": "8f1d78f7c865f75640e8acd1a6f6e15eaf26370e2bb2eccc0b0f5ffa2d140a08",
+    "p7_freeze_code": "8d6365e535e430e8778bfd07ffb5554b39853f5f54c76fc6fded9e86328a1d7c",
+    "p8_runner": "82efe504f7747171cce6e2a9bdea10e310a8d1cbdb3aab9b4a650a9eb5b5cd57",
+    "public_manifest": "3afaf66de8b83a150406bcf10f880b9ba0c129e757a09dc2048246217df0d60d",
+    "retrieval_selections": "cd2e3f715f7f87ecc0256ebc00638558d58659b3d38c982231ba83a3fb1f0afd",
+    "sealed_bindings": "c96e4bf2bf40f61f907b804f3206fac138591d6090ab9c5b97711b40e5fe8cb2",
+    "sealed_condition_map": "adfb0fee90f2e5b0dc44176d64a7a383b98521430d7cabdc8e62536a498e4bc4",
+    "selected_targets": "05cfc4680983b3b4487cb987274f8a12d2d36319584c35a83558dc5c96c7bdde"
+  },
+  "metrics": {
+    "episodes": 5400,
+    "projected_cost_usd": 259.8983820000001,
+    "requested_cost_cap_usd": 311.88,
+    "requested_token_cap": 195000000,
+    "same_source_H_R_targets": 2,
+    "targets": 675
+  },
+  "paid_api_calls": 0,
+  "schema_version": "study3_v3_2_p7_freeze_report_v1"
+}

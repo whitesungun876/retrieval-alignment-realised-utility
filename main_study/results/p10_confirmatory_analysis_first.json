@@ -1,0 +1,117 @@
+{
+  "missing_data_rule": "Unresolved technical failures are missing. A target-condition mean uses all available repetitions; a contrast omits a target only if either condition has zero valid repetitions.",
+  "mixed_model_sensitivity": {
+    "coefficients": [
+      {
+        "log_odds": 1.653511752951707,
+        "p_two_sided": 1.1259418346793634e-110,
+        "standard_error": 0.07397230172454246,
+        "term": "Intercept",
+        "z": 22.353120213955794
+      },
+      {
+        "log_odds": -1.6466733502760122,
+        "p_two_sided": 5.9461778607007e-72,
+        "standard_error": 0.09179757413518581,
+        "term": "C(condition, Treatment(reference='R'))[T.D]",
+        "z": -17.938092218548572
+      },
+      {
+        "log_odds": -0.21627104776132394,
+        "p_two_sided": 0.03248260547869048,
+        "standard_error": 0.10113586968319427,
+        "term": "C(condition, Treatment(reference='R'))[T.H]",
+        "z": -2.1384208040014676
+      },
+      {
+        "log_odds": -2.0287648486008054,
+        "p_two_sided": 7.264151852183735e-107,
+        "standard_error": 0.09239301169682561,
+        "term": "C(condition, Treatment(reference='R'))[T.N]",
+        "z": -21.95799023477994
+      }
+    ],
+    "converged_assessment": "  message: Desired error not necessarily achieved due to precision loss.\n  success: False\n   status: 2\n      fun: -8830.198743225934\n        x: [ 1.654e+00 -1.647e+00 ...  6.592e-09 -2.392e-09]\n      nit: 641\n      jac: [-8.169e+02 -4.676e+02 ...  3.775e+07 -1.370e+07]\n hess_inv: [[ 4.477e-03 -4.957e-03 ...  1.189e-09  6.721e-10]\n            [-5.079e-03  8.500e-03 ... -6.938e-09 -6.741e-09]\n            ...\n            [ 1.312e-09 -7.093e-09 ...  6.114e-01  2.290e-03]\n            [ 7.563e-10 -6.804e-09 ...  2.290e-03  9.175e-01]]\n     nfev: 3116\n     njev: 3104",
+    "model": "BinomialBayesMixedGLM MAP logistic random intercept",
+    "target_random_intercept": true,
+    "valid_episodes": 5394
+  },
+  "primary": {
+    "bootstrap_95_ci": [
+      -0.024444444444444446,
+      0.02962962962962963
+    ],
+    "bootstrap_95_ci_percentage_points": [
+      -2.4444444444444446,
+      2.9629629629629632
+    ],
+    "bootstrap_resamples": 10000,
+    "contrast": "H-R",
+    "risk_difference": 0.0022222222222222222,
+    "risk_difference_percentage_points": 0.2222222222222222,
+    "sign_flip_p_two_sided": 0.9141085891410858,
+    "sign_flip_resamples": 10000,
+    "targets": 675
+  },
+  "retrieval_counts": {
+    "H_R_different_source": 673,
+    "H_R_same_source": 2,
+    "targets": 675
+  },
+  "secondary": [
+    {
+      "bootstrap_95_ci": [
+        0.1688888888888889,
+        0.24222222222222223
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        16.88888888888889,
+        24.22222222222222
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "R-N",
+      "holm_adjusted_p": 0.00029997000299970003,
+      "risk_difference": 0.20592592592592593,
+      "risk_difference_percentage_points": 20.59259259259259,
+      "sign_flip_p_two_sided": 9.999000099990002e-05,
+      "sign_flip_resamples": 10000,
+      "targets": 675
+    },
+    {
+      "bootstrap_95_ci": [
+        -0.017777777777777778,
+        0.0362962962962963
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        -1.7777777777777777,
+        3.6296296296296298
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "D-R",
+      "holm_adjusted_p": 0.8825117488251175,
+      "risk_difference": 0.008888888888888889,
+      "risk_difference_percentage_points": 0.8888888888888888,
+      "sign_flip_p_two_sided": 0.5552444755524447,
+      "sign_flip_resamples": 10000,
+      "targets": 675
+    },
+    {
+      "bootstrap_95_ci": [
+        -0.02148148148148148,
+        0.008148148148148147
+      ],
+      "bootstrap_95_ci_percentage_points": [
+        -2.148148148148148,
+        0.8148148148148148
+      ],
+      "bootstrap_resamples": 10000,
+      "contrast": "H-D",
+      "holm_adjusted_p": 0.8825117488251175,
+      "risk_difference": -0.006666666666666667,
+      "risk_difference_percentage_points": -0.6666666666666667,
+      "sign_flip_p_two_sided": 0.44125587441255876,
+      "sign_flip_resamples": 10000,
+      "targets": 675
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "byte_identical_cookbooks_removed": true,
+    "byte_identical_rendered_trajectories_removed": true,
+    "canonical_renderer_deterministic": true,
+    "cookbook_match_100pct": true,
+    "deduplication_selection_reproducible": true,
+    "included_count_exact": true,
+    "legacy_bank_and_replay_evidence_hash_match": true,
+    "observations_and_actions_present": true,
+    "official_replay_success_100pct": true,
+    "raw_and_delex_documents_present": true,
+    "source_ids_unique": true,
+    "train_fold_only": true,
+    "unresolved_malformed_records_zero": true
+  },
+  "created_at_utc": "2026-07-29T17:14:03+00:00",
+  "decision": "PASS",
+  "hashes": {
+    "deduplication_report": "4fced2fdc3f4b2ec38b229148209eb8e9c4dfafd2dfec1fdfce31a468ded8aa7",
+    "legacy_bank": "313b8888a72238727f3d384b1ae2aae0547bae538dd820d38e96da3d2b6477fb",
+    "legacy_report": "e2d2d987a1c1b5c594fc8bfc88700caec5aba7f015db9f4d2269c09ceb378bff",
+    "p2_code": "17766722f45ec913761eef3eeebcfc18a3616d1f6d6e03dacb007bee8b61a7b7",
+    "replay_failures": "796c4c14e96a550c0a864f3ea98bceabdd5dec430e60f965354d02a6da03fcd0",
+    "source_experience_bank": "ea310ed279437c9bca08f3ae44fe4acdfc321b5ce44b8b8452ba250d5887ca31"
+  },
+  "llm_provider_called": false,
+  "metrics": {
+    "cookbook_duplicate_rows_removed": 1879,
+    "included_rows": 3121,
+    "included_unique_recipe_signatures": 136,
+    "input_rows": 5000,
+    "maximum_recipe_signature_reuse": 97,
+    "recipe_signature_duplicates_removed": false,
+    "replay_failures": 0,
+    "selection_rule": "within each byte-identical cookbook group: shortest stored successful action sequence, then lowest stored invalid-action count (all zero), then ascending SHA-256 of canonical action JSON; subsequently remove any byte-identical canonical trajectory by the same rule",
+    "trajectory_duplicate_rows_removed_after_cookbook_dedup": 0,
+    "unique_byte_identical_cookbooks": 3121,
+    "unique_legacy_canonical_trajectories_after_cookbook_dedup": 3121
+  },
+  "schema_version": "study3_v3_2_p2_report_v1",
+  "scientific_outcomes_read": false
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "protocol_control_pc_design_v1",
+  "status": "PREPARED_NOT_AUTHORIZED_FOR_PAID_EXECUTION",
+  "targets": 800,
+  "conditions": ["P", "C"],
+  "repetitions_per_condition": 2,
+  "formal_episode_cells": 3200,
+  "independent_unit": "target",
+  "primary_estimand": "equal-weight target mean of P minus C terminal-success means",
+  "equivalence_margin_risk_difference": 0.05,
+  "alpha_two_sided_difference": 0.05,
+  "alpha_each_tost_side": 0.05,
+  "bootstrap_resamples": 10000,
+  "sign_flip_resamples": 10000,
+  "power_simulations": 10000,
+  "workers": 4,
+  "formal_run_order_seed": 202608120901,
+  "arm_mask_seed": 202608120902,
+  "power_seed": 202608120903,
+  "analysis_seed": 202608120904,
+  "length_ratio_min": 0.90,
+  "length_ratio_max": 1.10,
+  "tokenizer": {
+    "requested_model": "Qwen/Qwen3-0.6B",
+    "local_files_only_after_material_freeze": true,
+    "role": "official open-weight Qwen3-family BPE tokenizer used as a prespecified local proxy; exact tokenizer identity for the hosted qwen3.7 snapshot is not independently verified",
+    "hard_gate": true
+  },
+  "reuse_disclosure": "All 800 targets and P source assignments are reused from the frozen supplemental permutation; this is not an independent target-sample replication.",
+  "paid_execution_authorized": false
+}

@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "budget_approved": true,
+    "config_matches_authorization": true,
+    "cost_cap_exact": true,
+    "episode_cap_exact": true,
+    "failure_rules_prospective": true,
+    "no_supplemental_outcomes": true,
+    "overlap_rules_prospective": true,
+    "snapshot_model_exact": true,
+    "snapshot_probe_pass": true,
+    "token_cap_exact": true
+  },
+  "created_at_utc": "2026-08-03T18:41:48+00:00",
+  "decision": "PASS",
+  "formal_agent_episode_starts": 0,
+  "freeze_hashes": {
+    "experiments/study3_sup_analysis.py": "58cdc32308ee372899b6dca7e0f0f22507227a216e7d2cc88565c115830e6165",
+    "experiments/study3_sup_model_snapshot_probe.py": "24a2bda74361f7f855cb3882319c413f3d08c82b25985fbcb04e402d9e71d7a8",
+    "experiments/study3_sup_r0_freeze.py": "117f6a7b8dcd84d10737d1153fbb8aec99cbf433f00726042304211fbf1433b6",
+    "study3_supplemental_random_baseline/analysis/failure_taxonomy_v1.json": "f4a67c31f61bfcc2bcfd4d712895c68d7907bdd2b5db88e753acb3eb52d792a0",
+    "study3_supplemental_random_baseline/analysis/overlap_strata_v1.json": "6455ac365676b31f2f513a29ab4f1f0e173b93008611c793e43f870e62ea31a9",
+    "study3_supplemental_random_baseline/authorization/day0_model_probe_authorization.json": "115f8b161892934ca1f738a9911f12b8e30c7d1a3e28fa946f91c572eee9367d",
+    "study3_supplemental_random_baseline/authorization/formal_budget_authorization.json": "23d2311fa4d99efcc12bd2117c5b498c498cef46e2c787a72bf3ef4903ef4bfb",
+    "study3_supplemental_random_baseline/config/supplemental_config_draft.json": "d84aa462935ce52218f822b07c4f7c6d178ea887f1545623f358d4bb745fc0da",
+    "study3_supplemental_random_baseline/protocol/sup_r0_protocol_draft.md": "496abd5ee6422725d9bcbef89e30f8f34900fdc4d699edf42a0c74479e4f2ea6",
+    "study3_supplemental_random_baseline/reports/day0_model_snapshot_probe.json": "3b1a864c4cc688084c686f6ecdedc4f330e391ffa3fad88e13f26261a116cc90"
+  },
+  "model_probe_cost_usd": 0.0007440000000000001,
+  "model_probe_provider_requests": 3,
+  "model_probe_tokens": 465,
+  "schema_version": "study3_sup_r0_freeze_report_v1",
+  "supplemental_outcomes_exist": false,
+  "supplemental_outcomes_read": false
+}

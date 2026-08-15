@@ -1,0 +1,36 @@
+{
+  "arm_to_condition": {
+    "arm_1": "D",
+    "arm_2": "H",
+    "arm_3": "N",
+    "arm_4": "R"
+  },
+  "condition_mapping_revealed": true,
+  "counts": {
+    "logical_episode_cells": 5400,
+    "preregistered_unresolved_technical_failures": 6,
+    "targets": 675,
+    "valid_episode_records": 5394
+  },
+  "created_at_utc": "2026-08-03T13:48:26+00:00",
+  "decision": "PASS",
+  "first_analysis_preserved": true,
+  "frozen_analysis_invocations": 1,
+  "input_hashes": {
+    "experiments/study3_v3_2_analysis.py": "746a2720cad1e556aac7d9b09b967cfd5ab793c2e2dd5ae4c8c3eb70ce7443fe",
+    "study3_v3_2/formal/p9_selected_record_index.jsonl": "9b6501862e208e5dcec91b2cf4d12287ee16652486e4d5366579682bfaba7b97",
+    "study3_v3_2/formal/retrieval_selections.jsonl": "cd2e3f715f7f87ecc0256ebc00638558d58659b3d38c982231ba83a3fb1f0afd",
+    "study3_v3_2/formal/sealed_condition_map.json": "adfb0fee90f2e5b0dc44176d64a7a383b98521430d7cabdc8e62536a498e4bc4",
+    "study3_v3_2/reports/p9_blind_technical_acceptance.json": "de31e779c533a05213613c9309c14b83e6aad3fe8cc6068940598260c3476719",
+    "study3_v3_2/reports/p9_blind_technical_acceptance_adjudication_01.json": "eafa114cc5d33d006dbe52cbf9ce25195ccea65c5c4a8e0239ab068e0fd4c588"
+  },
+  "output_hashes": {
+    "study3_v3_2/results/p10_condition_descriptives.csv": "922d661a63ecd8e8a825eacebaaec7fe288d6131998de59fbd79bafc03901ea3",
+    "study3_v3_2/results/p10_confirmatory_analysis_first.json": "6819bf17608dc8a3bc2bd544a4d6fde54115227f8ce3ee0cff8d175309f6638d",
+    "study3_v3_2/results/p10_confirmatory_contrasts.csv": "b1bcc7be7a9b781c621373220578c3a279cc1ea0333a0c5a78038b17b6689b5d",
+    "study3_v3_2/results/p10_confirmatory_contrasts.png": "c831d5f6c8ca22ad5f50ee549d562687d82689149ae7b11e8676e79994840a14",
+    "study3_v3_2/results/p10_episode_outcomes_first.jsonl": "b9f65029e91cdb004b631a8eceb95765eb3e89963e94fb3c09b06238c669d444"
+  },
+  "p9_gate_verified_pass_before_unblinding": true,
+  "schema_version": "study3_v3_2_p10_first_analysis_provenance_v1"
+}

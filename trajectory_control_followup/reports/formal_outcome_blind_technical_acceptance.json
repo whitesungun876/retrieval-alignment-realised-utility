@@ -1,0 +1,71 @@
+{
+  "schema_version": "protocol_control_pc_formal_outcome_blind_technical_acceptance_v1",
+  "created_at_utc": "2026-08-13T13:00:37Z",
+  "decision": "PASS",
+  "scope": "Outcome-blind technical completeness, immutable-artifact, accounting, and shutdown acceptance only. No scientific outcome or condition-level effect was read or computed.",
+  "checks": {
+    "active_zero": true,
+    "all_records_complete": true,
+    "bindings_3200": true,
+    "caps_respected": true,
+    "completed_3192": true,
+    "consumed_8": true,
+    "durable_child_exit_zero": true,
+    "exact_allocated_3200": true,
+    "ledger_record_hashes_exact": true,
+    "manifest_partition_exact": true,
+    "no_stop": true,
+    "public_manifest_blinded": true,
+    "raw_record_set_exact": true,
+    "scientific_hashes_unchanged": true,
+    "scientific_outcomes_read_false": true,
+    "technical_failures_zero": true,
+    "watchdog_terminated_by_launcher": true,
+    "worker_heartbeats_complete": true
+  },
+  "accounting": {
+    "active_claims": 0,
+    "completed_records": 3192,
+    "consumed_without_record": 8,
+    "formal_cells_allocated": 3200,
+    "paid_episode_starts_including_smoke_active_and_consumed": 3208,
+    "observed_plus_conservative_unknown_tokens": 103515869,
+    "observed_plus_conservative_unknown_cost_usd": 165.62539040000036,
+    "hard_caps": {
+      "paid_episode_starts": 3208,
+      "tokens": 162000000,
+      "cost_usd": 260.0
+    }
+  },
+  "rate_limit_technical_metadata": {
+    "recent_record_window": 20,
+    "affected_records_in_window": 0,
+    "attempts_429_in_window": 0,
+    "consecutive_affected_records": 0,
+    "resume_epoch_records_observed": 3124,
+    "resume_epoch_429_affected_records": 52,
+    "resume_epoch_429_attempts": 56,
+    "gate_triggered_at_acceptance": false
+  },
+  "durable_shutdown": {
+    "child_exit_code": 0,
+    "watchdog_exit_code": -15,
+    "finished_at_epoch": 1786625936.544558,
+    "worker_heartbeats": "4/4 complete with null run_id"
+  },
+  "immutable_scientific_artifact_hashes": {
+    "analysis_py": "7558648da80f0e788215be3e437ff4bb20f93a7588f9d1a7435510909d3b4a5d",
+    "experience_pairs_jsonl": "dd8b178c03882fcc10d870b033765256950f20200a9efbea63793efb58ce97fd",
+    "formal_manifest_jsonl": "dd63ef8abb8baeb06581a0b077e8c28afb32579db4f5152f374ff6f311237ee2",
+    "sealed_execution_bindings_jsonl": "6e0fb442e10f1cf921e8a0056b41013bd1a4c0c3ccf5d0e74fa73a59acf6b1b5"
+  },
+  "set_hashes": {
+    "completed_ids_sha256": "483cdd33d98e37eec0590cc1ba6096fda6ef605a186505108cbcf28aa35f0bf7",
+    "consumed_ids_sha256": "f3ebbe9f6d4ffcc8fbf6aaca876abf28574e26afbbf75a71b79993af70639d0e"
+  },
+  "locks": {
+    "scientific_unblinding_authorized": false,
+    "scientific_analysis_run": false,
+    "ds_or_other_provider_work_triggered": false
+  }
+}

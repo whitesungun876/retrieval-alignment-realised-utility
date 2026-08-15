@@ -1,0 +1,53 @@
+{
+  "accepted_permutation_sha256": "81f3c629dd2095cbc5d3812565c082c5ab6a774a46b9009c52b743a0b3bab139",
+  "arm_masking_seed": 202608031302,
+  "checks": {
+    "P_R2_multiset_exact": true,
+    "P_differs_from_R2_800_of_800": true,
+    "P_unique_sources_515": true,
+    "R2_unique_sources_515": true,
+    "all_sources_official_replay_success": true,
+    "donor_fixed_points_zero": true,
+    "formal_design_cells_4800": true,
+    "llm_provider_calls_zero": true,
+    "old_675_R2_matches_old_R": true,
+    "reserve_untouched_audit": true,
+    "supplemental_outcomes_read_zero": true,
+    "target_source_fold_separation": true,
+    "targets_675_plus_125": true
+  },
+  "created_at_utc": "2026-08-03T18:46:00+00:00",
+  "decision": "PASS",
+  "diagnostic_not_gate": {
+    "P_allowed_edge_signature_frequency_expectation": 0.01749248755236779,
+    "P_realised_structural_match_rate": 0.015,
+    "P_unconstrained_signature_frequency_expectation": 0.017653125,
+    "R2_structural_match_rate": 0.07
+  },
+  "hashes": {
+    "experiments/study3_sup_r1_construct.py": "c68d407583ff82ebbebb85bb27bfdf5a8874a7c8fd004ee56647a53702ff96e1",
+    "study3_supplemental_random_baseline/formal/public_design_cells_unordered.jsonl": "e1896abd7d2d378dae283bf90b2abbb230275da098ad480a06e9d6665382dc35",
+    "study3_supplemental_random_baseline/materials/selected_sources.jsonl": "67fe5b10fd83b42e4afea61db0309f2f86ad8bfc92045c9297601ff037bc4444",
+    "study3_supplemental_random_baseline/materials/selected_targets.jsonl": "24ba8e8257bc72a05eaff8b65291e587db675b39f304e1f1aa3fc2db191e8d6e",
+    "study3_supplemental_random_baseline/retrieval/permutation_attempts.jsonl": "b8e71157c19dfaa4957855a74eb7f0c1717200a0d5b1ebf157c9f805c80ca280",
+    "study3_supplemental_random_baseline/retrieval/r2_p_mapping.jsonl": "924037af05a7a8dc707dbaef33cfc82f523ad2791ab92ad18793bffe1b7f2c47",
+    "study3_supplemental_random_baseline/sealed/sealed_condition_map.json": "87ef9ec2dc9d85754c77791a3fc884b5d1198b7b02e901c16f1ff962a259d168",
+    "study3_supplemental_random_baseline/sealed/sealed_execution_bindings_unordered.jsonl": "93fe7d52dfffef36e13b746c15a2fd12311d9fe2f997bf9c88a11e0f7c7216b6"
+  },
+  "llm_provider_called": false,
+  "permutation_attempts": 11,
+  "permutation_seed": 202608031301,
+  "reserve_untouched_audit": {
+    "json_files_scanned": 20955,
+    "passed": true,
+    "reserve_targets": 125,
+    "unexpected_prior_use_files": []
+  },
+  "schema_version": "study3_sup_r1_construction_report_v1",
+  "source_reuse": {
+    "P_unique_sources": 515,
+    "R2_unique_sources": 515,
+    "maximum_reuse": 8
+  },
+  "supplemental_outcomes_read": false
+}

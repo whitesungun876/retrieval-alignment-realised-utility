@@ -1,0 +1,81 @@
+{
+  "environment": {
+    "game_name": "cookingworld",
+    "game_params": "numLocations=3,numIngredients=2,numDistractorItems=0,includeDoors=0,limitInventorySize=0",
+    "maximum_steps": 50,
+    "name": "textworldexpress",
+    "target_task_specification": "materialised_cookbook_equal_all_conditions",
+    "version": "1.1.0"
+  },
+  "probes": [
+    {
+      "auxiliary_materialisation_actions": 1,
+      "condition_cookbook_hashes": {
+        "D": "3a9954a7c22bea9d80c6873f39894c9cfffffb66780351f124ca6b3969db6a4c",
+        "H": "3a9954a7c22bea9d80c6873f39894c9cfffffb66780351f124ca6b3969db6a4c",
+        "N": "3a9954a7c22bea9d80c6873f39894c9cfffffb66780351f124ca6b3969db6a4c",
+        "R": "3a9954a7c22bea9d80c6873f39894c9cfffffb66780351f124ca6b3969db6a4c"
+      },
+      "contains_directions_section": true,
+      "contains_ingredients_section": true,
+      "cookbook_bytes": 177,
+      "cookbook_sha256": "3a9954a7c22bea9d80c6873f39894c9cfffffb66780351f124ca6b3969db6a4c",
+      "deterministic": true,
+      "fold": "train",
+      "formal_episode_actions_consumed": 0,
+      "hidden_field_markers_present": false,
+      "reset_task_description": "You are hungry! Let's cook a delicious meal. Check the cookbook in the kitchen for the recipe. Once done, enjoy your meal!",
+      "seed": 24000
+    },
+    {
+      "auxiliary_materialisation_actions": 1,
+      "condition_cookbook_hashes": {
+        "D": "b638587988de45ba8143976d6a82f6eeea17750c4b09bb7da78458dac4af64c5",
+        "H": "b638587988de45ba8143976d6a82f6eeea17750c4b09bb7da78458dac4af64c5",
+        "N": "b638587988de45ba8143976d6a82f6eeea17750c4b09bb7da78458dac4af64c5",
+        "R": "b638587988de45ba8143976d6a82f6eeea17750c4b09bb7da78458dac4af64c5"
+      },
+      "contains_directions_section": true,
+      "contains_ingredients_section": true,
+      "cookbook_bytes": 165,
+      "cookbook_sha256": "b638587988de45ba8143976d6a82f6eeea17750c4b09bb7da78458dac4af64c5",
+      "deterministic": true,
+      "fold": "dev",
+      "formal_episode_actions_consumed": 0,
+      "hidden_field_markers_present": false,
+      "reset_task_description": "You are hungry! Let's cook a delicious meal. Check the cookbook in the kitchen for the recipe. Once done, enjoy your meal!",
+      "seed": 34000
+    },
+    {
+      "auxiliary_materialisation_actions": 1,
+      "condition_cookbook_hashes": {
+        "D": "61800be684649be944df5fbe76013fa5586048d787d8aa7ba4650e125654d829",
+        "H": "61800be684649be944df5fbe76013fa5586048d787d8aa7ba4650e125654d829",
+        "N": "61800be684649be944df5fbe76013fa5586048d787d8aa7ba4650e125654d829",
+        "R": "61800be684649be944df5fbe76013fa5586048d787d8aa7ba4650e125654d829"
+      },
+      "contains_directions_section": true,
+      "contains_ingredients_section": true,
+      "cookbook_bytes": 173,
+      "cookbook_sha256": "61800be684649be944df5fbe76013fa5586048d787d8aa7ba4650e125654d829",
+      "deterministic": true,
+      "fold": "test",
+      "formal_episode_actions_consumed": 0,
+      "hidden_field_markers_present": false,
+      "reset_task_description": "You are hungry! Let's cook a delicious meal. Check the cookbook in the kitchen for the recipe. Once done, enjoy your meal!",
+      "seed": 52000
+    }
+  ],
+  "runtime": {
+    "java_home": "/opt/homebrew/opt/openjdk@17",
+    "java_version_output": "openjdk version \"17.0.19\" 2026-04-21\nOpenJDK Runtime Environment Homebrew (build 17.0.19+0)\nOpenJDK 64-Bit Server VM Homebrew (build 17.0.19+0, mixed mode, sharing)",
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python_executable": "/Users/lola/Documents/dimensional/thesis/.venv/bin/python",
+    "python_version": "3.9.25",
+    "textworld_express_jar": "/Users/lola/Documents/dimensional/thesis/.venv/lib/python3.9/site-packages/textworld_express/textworld-express.jar",
+    "textworld_express_jar_sha256": "23da9ab053dde2de003b4556a2734af3225dc3a0ef8af7354df53aafb5c77d99",
+    "textworld_express_version": "1.1.0",
+    "textworld_express_wrapper": "/Users/lola/Documents/dimensional/thesis/.venv/lib/python3.9/site-packages/textworld_express/__init__.py",
+    "textworld_express_wrapper_sha256": "921ddf48e4924281fa057c2ec7fbc6c3b632ab334dcb89613e5ff92e8daac385"
+  }
+}

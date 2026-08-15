@@ -1,0 +1,124 @@
+{
+  "created_at_utc": "2026-08-05T14:19:01+00:00",
+  "failure_diagnostics": {
+    "by_condition": {
+      "N2": {
+        "category_counts": {
+          "navigation_or_step_limit_failure": 7,
+          "operation_to_ingredient_error": 511,
+          "premature_ingredient_consumption": 98
+        },
+        "valid_failures": 616
+      },
+      "P": {
+        "category_counts": {
+          "navigation_or_step_limit_failure": 2,
+          "operation_to_ingredient_error": 269,
+          "premature_ingredient_consumption": 6
+        },
+        "valid_failures": 277
+      },
+      "R2": {
+        "category_counts": {
+          "navigation_or_step_limit_failure": 1,
+          "operation_to_ingredient_error": 240,
+          "premature_ingredient_consumption": 14
+        },
+        "valid_failures": 255
+      }
+    },
+    "category_counts": {
+      "navigation_or_step_limit_failure": 10,
+      "operation_to_ingredient_error": 1020,
+      "premature_ingredient_consumption": 118
+    },
+    "category_fractions": {
+      "navigation_or_step_limit_failure": 0.008710801393728223,
+      "operation_to_ingredient_error": 0.8885017421602788,
+      "premature_ingredient_consumption": 0.10278745644599303
+    },
+    "classification_coverage": 1.0,
+    "failure_rule_sha256": "f4a67c31f61bfcc2bcfd4d712895c68d7907bdd2b5db88e753acb3eb52d792a0",
+    "invalid_action_counts_all_valid_episodes": {
+      "N2": 86,
+      "P": 0,
+      "R2": 1
+    },
+    "status": "predeclared_descriptive_failure_taxonomy",
+    "valid_failures": 1148
+  },
+  "ingredient_overlap_status": "descriptive set intersection and Jaccard summaries; no inferential status",
+  "operation_overlap_rule_sha256": "6455ac365676b31f2f513a29ab4f1f0e173b93008611c793e43f870e62ea31a9",
+  "retrieval_conditions": {
+    "P": {
+      "exact_structural_match_count": 12,
+      "exact_structural_match_rate": 0.015,
+      "ingredient_set_exact_count": 1,
+      "mean_ingredient_jaccard": 0.06249999999999999,
+      "mean_operation_coverage_defined_targets": 0.28110651974288337,
+      "mean_operation_overlap_count": 0.595,
+      "overlap_strata": {
+        "complete_coverage": {
+          "exact_structural_match_rate": 0.09836065573770492,
+          "mean_target_success_rate": 0.9508196721311475,
+          "targets": 61
+        },
+        "no_transformation_target": {
+          "exact_structural_match_rate": 0.08108108108108109,
+          "mean_target_success_rate": 1.0,
+          "targets": 74
+        },
+        "partial_coverage": {
+          "exact_structural_match_rate": 0.0,
+          "mean_target_success_rate": 0.8038585209003215,
+          "targets": 311
+        },
+        "zero_overlap": {
+          "exact_structural_match_rate": 0.0,
+          "mean_target_success_rate": 0.78954802259887,
+          "targets": 354
+        }
+      },
+      "targets": 800
+    },
+    "R2": {
+      "exact_structural_match_count": 56,
+      "exact_structural_match_rate": 0.07,
+      "ingredient_set_exact_count": 794,
+      "mean_ingredient_jaccard": 0.995,
+      "mean_operation_coverage_defined_targets": 0.5890725436179981,
+      "mean_operation_overlap_count": 1.2425,
+      "overlap_strata": {
+        "complete_coverage": {
+          "exact_structural_match_rate": 0.08225108225108226,
+          "mean_target_success_rate": 0.7965367965367965,
+          "targets": 231
+        },
+        "no_transformation_target": {
+          "exact_structural_match_rate": 0.5,
+          "mean_target_success_rate": 0.9527027027027027,
+          "targets": 74
+        },
+        "partial_coverage": {
+          "exact_structural_match_rate": 0.0,
+          "mean_target_success_rate": 0.7915531335149864,
+          "targets": 367
+        },
+        "zero_overlap": {
+          "exact_structural_match_rate": 0.0,
+          "mean_target_success_rate": 0.99609375,
+          "targets": 128
+        }
+      },
+      "targets": 800
+    }
+  },
+  "schema_version": "study3_sup_r6_retrieval_diagnostics_v1",
+  "source_assignment": {
+    "P_R2_same_source_targets": 0,
+    "source_multisets_identical": true,
+    "unique_P_sources": 515,
+    "unique_R2_sources": 515
+  },
+  "status": "predeclared_descriptive_diagnostics"
+}

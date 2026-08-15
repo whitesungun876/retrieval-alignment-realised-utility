@@ -1,0 +1,379 @@
+{
+  "budget": {
+    "maximum_cost_usd": 280.0,
+    "maximum_paid_agent_episode_starts": 4812,
+    "maximum_total_tokens": 175000000,
+    "model_probe_cost_usd_already_used": 0.000744,
+    "model_probe_tokens_already_used": 465
+  },
+  "checks": {
+    "difference_and_tost_separate": true,
+    "difference_gate_power_at_least_080": false,
+    "episode_level_sensitivity_saved": true,
+    "formal_simulations_10000": true,
+    "full_sensitivity_grid_saved": true,
+    "independent_unit_target": true,
+    "llm_provider_calls_zero": true,
+    "supplemental_outcomes_read_zero": true,
+    "type_i_gate_anchor_045_to_055": true
+  },
+  "created_at_utc": "2026-08-03T18:53:03+00:00",
+  "decision": "FAIL",
+  "design": {
+    "conditions": 3,
+    "formal_episodes": 4800,
+    "repetitions": 2,
+    "targets": 800
+  },
+  "difference_test_gate_scenario": {
+    "calibrated_probabilities": [
+      0.05225308641642845,
+      0.22033712634458733,
+      0.38047010246766894,
+      0.26903607036519034,
+      0.07790361440612502
+    ],
+    "difference_test_power": 0.7972,
+    "difference_test_power_mc95": [
+      0.7892058458376408,
+      0.8049659055308291
+    ],
+    "effect_risk_difference": 0.05,
+    "episode_missingness": 0.01,
+    "generator": "maximum_entropy_discrete_target_difference",
+    "mean_evaluable_targets": 799.8375,
+    "mean_realised_effect": 0.05010046572708157,
+    "mean_realised_target_sd": 0.49982749782539393,
+    "n_targets": 800,
+    "seed": 202608031635,
+    "simulations": 10000,
+    "target_difference_sd": 0.5,
+    "target_evaluable_probability": 0.9998000100000001,
+    "tost_power": 0.0527,
+    "tost_power_mc95": [
+      0.0484900114917122,
+      0.05725351345069507
+    ]
+  },
+  "hashes": {
+    "analysis_code": "58cdc32308ee372899b6dca7e0f0f22507227a216e7d2cc88565c115830e6165",
+    "episode_sensitivity": "59cba66eb973767263854122d141de457d22bc67c7d1589b4ef4bec8f94c9b52",
+    "grid": "b30c9f6564c8bfac30533e06ae89b73222ddc763e646c4c6a89b4bf9d377aafb",
+    "power_code": "d393746c0d792e19c4beb92e44a34440eb7d82079fa300e77feb94ea47563585"
+  },
+  "llm_provider_called": false,
+  "schema_version": "study3_sup_r2_power_report_v1",
+  "seeds": {
+    "base": 202608031401
+  },
+  "software": {
+    "numpy": "2.0.2",
+    "python": "3.9.25",
+    "scipy": "1.13.1"
+  },
+  "supplemental_outcomes_read": false,
+  "tost_anchor_scenarios": [
+    {
+      "calibrated_probabilities": [
+        0.011880122444432843,
+        0.21167951022226889,
+        0.5528807346665965,
+        0.21167951022226889,
+        0.011880122444432843
+      ],
+      "difference_test_power": 0.0395,
+      "difference_test_power_mc95": [
+        0.03585582726190139,
+        0.04349783523749174
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8389,
+      "mean_realised_effect": -6.634607190184918e-05,
+      "mean_realised_target_sd": 0.3597506612080031,
+      "n_targets": 800,
+      "seed": 202608031584,
+      "simulations": 10000,
+      "target_difference_sd": 0.36,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.98,
+      "tost_power_mc95": [
+        0.977066073239287,
+        0.9825652883248633
+      ]
+    },
+    {
+      "calibrated_probabilities": [
+        0.05184727146792837,
+        0.24386091412828642,
+        0.40858362880757043,
+        0.24386091412828642,
+        0.05184727146792837
+      ],
+      "difference_test_power": 0.0413,
+      "difference_test_power_mc95": [
+        0.03757291371455923,
+        0.04537936639069948
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8456,
+      "mean_realised_effect": -0.00011322504814979837,
+      "mean_realised_target_sd": 0.47485377783106386,
+      "n_targets": 800,
+      "seed": 202608031593,
+      "simulations": 10000,
+      "target_difference_sd": 0.475,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.8193,
+      "tost_power_mc95": [
+        0.8116364983913462,
+        0.8267182802491397
+      ]
+    },
+    {
+      "calibrated_probabilities": [
+        0.06382713670644717,
+        0.24469145317421134,
+        0.382962820238683,
+        0.24469145317421134,
+        0.06382713670644717
+      ],
+      "difference_test_power": 0.0489,
+      "difference_test_power_mc95": [
+        0.044843646588557176,
+        0.053302796741467234
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8446,
+      "mean_realised_effect": -6.317800842051511e-05,
+      "mean_realised_target_sd": 0.49997271719111086,
+      "n_targets": 800,
+      "seed": 202608031599,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.7665,
+      "tost_power_mc95": [
+        0.758106848011486,
+        0.7746884808569433
+      ]
+    }
+  ],
+  "type_i_gate_scenario": {
+    "calibrated_probabilities": [
+      0.06382713670644717,
+      0.24469145317421134,
+      0.382962820238683,
+      0.24469145317421134,
+      0.06382713670644717
+    ],
+    "difference_test_power": 0.0489,
+    "difference_test_power_mc95": [
+      0.044843646588557176,
+      0.053302796741467234
+    ],
+    "effect_risk_difference": 0.0,
+    "episode_missingness": 0.01,
+    "generator": "maximum_entropy_discrete_target_difference",
+    "mean_evaluable_targets": 799.8446,
+    "mean_realised_effect": -6.317800842051511e-05,
+    "mean_realised_target_sd": 0.49997271719111086,
+    "n_targets": 800,
+    "seed": 202608031599,
+    "simulations": 10000,
+    "target_difference_sd": 0.5,
+    "target_evaluable_probability": 0.9998000100000001,
+    "tost_power": 0.7665,
+    "tost_power_mc95": [
+      0.758106848011486,
+      0.7746884808569433
+    ]
+  },
+  "type_i_sensitivity_scenarios": [
+    {
+      "calibrated_probabilities": [
+        0.011880122444432843,
+        0.21167951022226889,
+        0.5528807346665965,
+        0.21167951022226889,
+        0.011880122444432843
+      ],
+      "difference_test_power": 0.0395,
+      "difference_test_power_mc95": [
+        0.03585582726190139,
+        0.04349783523749174
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8389,
+      "mean_realised_effect": -6.634607190184918e-05,
+      "mean_realised_target_sd": 0.3597506612080031,
+      "n_targets": 800,
+      "seed": 202608031584,
+      "simulations": 10000,
+      "target_difference_sd": 0.36,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.98,
+      "tost_power_mc95": [
+        0.977066073239287,
+        0.9825652883248633
+      ]
+    },
+    {
+      "calibrated_probabilities": [
+        0.022667219357388742,
+        0.22933112257044513,
+        0.49600331614433235,
+        0.22933112257044513,
+        0.022667219357388742
+      ],
+      "difference_test_power": 0.0465,
+      "difference_test_power_mc95": [
+        0.042544258319017675,
+        0.05080402820318598
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.841,
+      "mean_realised_effect": -2.7604459699467476e-05,
+      "mean_realised_target_sd": 0.39999014884459394,
+      "n_targets": 800,
+      "seed": 202608031587,
+      "simulations": 10000,
+      "target_difference_sd": 0.4,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.9395,
+      "tost_power_mc95": [
+        0.9346563151996191,
+        0.9440061502325562
+      ]
+    },
+    {
+      "calibrated_probabilities": [
+        0.04094464101717131,
+        0.24122143593131473,
+        0.43566784610302783,
+        0.24122143593131473,
+        0.04094464101717131
+      ],
+      "difference_test_power": 0.0446,
+      "difference_test_power_mc95": [
+        0.04072603677221204,
+        0.0488237089438002
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8449,
+      "mean_realised_effect": 0.00025568301026529885,
+      "mean_realised_target_sd": 0.4499087939022287,
+      "n_targets": 800,
+      "seed": 202608031590,
+      "simulations": 10000,
+      "target_difference_sd": 0.45,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.8643,
+      "tost_power_mc95": [
+        0.8574476572242176,
+        0.8708725615629074
+      ]
+    },
+    {
+      "calibrated_probabilities": [
+        0.05184727146792837,
+        0.24386091412828642,
+        0.40858362880757043,
+        0.24386091412828642,
+        0.05184727146792837
+      ],
+      "difference_test_power": 0.0413,
+      "difference_test_power_mc95": [
+        0.03757291371455923,
+        0.04537936639069948
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8456,
+      "mean_realised_effect": -0.00011322504814979837,
+      "mean_realised_target_sd": 0.47485377783106386,
+      "n_targets": 800,
+      "seed": 202608031593,
+      "simulations": 10000,
+      "target_difference_sd": 0.475,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.8193,
+      "tost_power_mc95": [
+        0.8116364983913462,
+        0.8267182802491397
+      ]
+    },
+    {
+      "calibrated_probabilities": [
+        0.05890957126332386,
+        0.2445617149467056,
+        0.3930574275799412,
+        0.2445617149467056,
+        0.05890957126332386
+      ],
+      "difference_test_power": 0.0456,
+      "difference_test_power_mc95": [
+        0.04168275313833824,
+        0.04986622458093264
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8397,
+      "mean_realised_effect": -4.01471882027844e-05,
+      "mean_realised_target_sd": 0.4898245907079597,
+      "n_targets": 800,
+      "seed": 202608031596,
+      "simulations": 10000,
+      "target_difference_sd": 0.49,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.7847,
+      "tost_power_mc95": [
+        0.7765354347622598,
+        0.7926459165654768
+      ]
+    },
+    {
+      "calibrated_probabilities": [
+        0.06382713670644717,
+        0.24469145317421134,
+        0.382962820238683,
+        0.24469145317421134,
+        0.06382713670644717
+      ],
+      "difference_test_power": 0.0489,
+      "difference_test_power_mc95": [
+        0.044843646588557176,
+        0.053302796741467234
+      ],
+      "effect_risk_difference": 0.0,
+      "episode_missingness": 0.01,
+      "generator": "maximum_entropy_discrete_target_difference",
+      "mean_evaluable_targets": 799.8446,
+      "mean_realised_effect": -6.317800842051511e-05,
+      "mean_realised_target_sd": 0.49997271719111086,
+      "n_targets": 800,
+      "seed": 202608031599,
+      "simulations": 10000,
+      "target_difference_sd": 0.5,
+      "target_evaluable_probability": 0.9998000100000001,
+      "tost_power": 0.7665,
+      "tost_power_mc95": [
+        0.758106848011486,
+        0.7746884808569433
+      ]
+    }
+  ]
+}

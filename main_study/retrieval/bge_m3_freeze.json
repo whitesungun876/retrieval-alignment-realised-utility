@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "cookbook_truncation_zero": true,
+    "dense_only": true,
+    "embedding_shapes_exact": true,
+    "flagembedding_exact": true,
+    "float32_cpu": true,
+    "gold_label_or_agent_outcome_access_zero": true,
+    "immutable_revision_exact": true,
+    "input_prefix_none": true,
+    "l2_normalized": true,
+    "model_id_exact": true,
+    "same_encoder_configuration_r_d_h": true,
+    "smoke_rankings_identical": true,
+    "smoke_vectors_byte_identical": true,
+    "snapshot_files_present": true
+  },
+  "created_at_utc": "2026-07-29T17:39:14+00:00",
+  "decision": "PASS",
+  "embedding": {
+    "configuration": {
+      "batch_size": 8,
+      "dense_only": true,
+      "device": "cpu",
+      "dtype": "float32",
+      "maximum_input_length": 8192,
+      "normalization": "l2",
+      "pooling_method": "cls",
+      "query_prefix": null,
+      "similarity": "cosine_inner_product",
+      "source_prefix": null
+    },
+    "delex_norm_max_abs_error": 2.9736704143523696e-07,
+    "dimension": 1024,
+    "model_id": "BAAI/bge-m3",
+    "raw_norm_max_abs_error": 2.6003005726416006e-07,
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "snapshot": "/Users/lola/.cache/huggingface/hub/models--BAAI--bge-m3/snapshots/5617a9f61b028005a4858fdac845db406aefb181",
+    "source_count": 3121
+  },
+  "hashes": {
+    "bank": "ea310ed279437c9bca08f3ae44fe4acdfc321b5ce44b8b8452ba250d5887ca31",
+    "config": "b7e0091a0d067e99a8455960e05dcb8d746a49e2c9c8022061522683fd2f746e",
+    "p3_code": "d777a48cd1ac825ad635be900c72cb5418ec7f34b65bd2eb2394ed3f094c9626",
+    "snapshot_inventory": "2d3fb43c212393892e1560f5fefa0132b39db330607f8df0f33393c7aa0377d0",
+    "source_delex_vectors": "08f7f70ebefe2c93653ab80e2bc00e48076c4b5cbdc13eeedce4abb33aaf7917",
+    "source_raw_vectors": "fce792e5327868f2245ba7b64689d8af44d651008176c01e69b62e2269742efb"
+  },
+  "llm_provider_called": false,
+  "schema_version": "study3_v3_2_bge_m3_freeze_v1",
+  "scientific_outcomes_read": false,
+  "software": {
+    "FlagEmbedding": "1.4.0",
+    "accelerate": "1.10.1",
+    "numpy": "2.0.2",
+    "python": "3.9.25",
+    "sentencepiece": "0.2.2",
+    "tokenizers": "0.22.2",
+    "torch": "2.8.0",
+    "transformers": "4.57.6"
+  },
+  "token_length_audit": {
+    "items": 6242,
+    "maximum_tokens": 65,
+    "mean_tokens": 47.58394745273951,
+    "minimum_tokens": 31,
+    "tokenizer_class": "XLMRobertaTokenizerFast"
+  },
+  "torch_settings": {
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "dtype": "float32",
+    "num_interop_threads": 1,
+    "num_threads": 4
+  }
+}
